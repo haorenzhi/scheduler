@@ -1,6 +1,6 @@
 import './App.css';
 import CourseList from './components/CourseList.js';
-import { addScheduleTimes } from './utilities/times';
+import { addScheduleTimes } from './utilities/times.js';
 import { useData } from './utilities/firebase.js';
 
 const Banner = ({title}) => (
